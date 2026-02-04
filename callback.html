@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Buyget - Gerando Diagnóstico...</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    <div id="loading">
+        <h2>A processar autorização...</h2>
+        <p>A extrair métricas de performance da Meta API.</p>
+    </div>
+
+    <div id="relatorio" style="display:none;">
+        <h2 style="color: #1877f2;">Diagnóstico Concluído ✅</h2>
+        <div id="dados-conta" style="background: #eee; padding: 15px; border-radius: 8px;">
+            </div>
+
+        <h3>Pontos de Melhoria:</h3>
+        <ul id="alertas">
+            </ul>
+
+        <button onclick="window.location.href='index.html'">Voltar ao Início</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
